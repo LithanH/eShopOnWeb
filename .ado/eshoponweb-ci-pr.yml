@@ -2,8 +2,15 @@
 resources:
   repositories:
     - repository: self
-      trigger: none
+      trigger:
+       branches:
+         include:
+         - dependabot/nuget/Azure.Identity-1.11.0
+       paths:
+        include:
+         - src/web/*
 
+       
 stages:
 - stage: Build
   displayName: Build .Net Core Solution
