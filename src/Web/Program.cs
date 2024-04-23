@@ -1,5 +1,4 @@
-﻿// Testing my first Pr
-    //My second change
+﻿    //My second change
 using System.Net.Mime;
 using Ardalis.ListStartupServices;
 using Azure.Identity;
